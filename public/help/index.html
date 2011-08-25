@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>weego: help</title>
+
+<style type="text/css">
+
+@font-face {
+	font-family: WeegoFont;
+	src: url( '../assets/fonts/MyriadPro-Light.otf' ),
+	 	 url( '../assets/fonts/MyriadPro-Light.eot' ) format("opentype");
+}
+
+@font-face {
+	font-family: WeegoFont;
+	src: url( '../assets/fonts/MyriadPro-Regular.otf' ),
+		 url( '../assets/fonts/MyriadPro-Regular.eot' ) format("opentype");
+	font-weight: bold;
+}
+
+HTML {
+	min-width: 1024px;
+}
+
+BODY {
+	font-family: WeegoFont, MyriadPro-Regular, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+	background-color: #F3F3F3;
+}
+
+#header {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	background: url('../assets/images/global/weego_smallheader_01.png') no-repeat top center fixed;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+#header #content {
+	position: relative;
+	display: block;
+	width: 1024px;
+	height: 101px;
+	margin: 0 auto;
+}
+
+#header #logo {
+	position: relative;
+	float: left;
+	display: block;
+	padding: 35px 0 0 52px
+}
+
+#header #weegoLinks {
+	display: block;
+	float: left;
+	width: 400px;
+	margin: 37px 0 0 341px;
+	padding: 0 54px 0 0;
+	text-align: right;
+	font-size: 1.3em;
+	font-weight: bold;
+	letter-spacing: 0.06em;
+	text-shadow: 0px 1px #000;
+	color: #999;
+}
+
+#header #weegoLinks A {
+	color: #CCC;
+	text-decoration: none;
+	margin: 0 0 0 25px;
+}
+
+#header #weegoLinks A:HOVER, #header #weegoLinks A.current {
+	color: #FFF;
+}
+
+.infoPage {
+	position: relative;
+	width: 100%;
+	min-width: 1024px;
+}
+
+.infoPage #content {
+	position: relative;
+	display: block;
+	width: 832px;
+	margin: 0 auto;
+	padding: 2.4em 150px 0 42px;
+}
+
+.infoPage #content H1 {
+	font-size: 4em;
+	font-weight: bold;
+	margin: 0 12px 0.4em 12px;
+	color: #444;
+}
+
+.infoPage #content H2 {
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 1.2em 12px 6px 12px;
+	color: #444;
+}
+
+.infoPage #content P {
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 0px 12px 1.1em 12px;
+	color: #444;
+}
+
+.infoPage #content P.date {
+	font-size: 1.2em;
+	margin: 2.2em 12px 1em 12px;
+	color: #444;
+}
+
+.infoPage #content P.footer {
+	font-size: 1.4em;
+	font-weight: normal;
+	font-style:italic;
+	margin: 0px 12px 24px 12px;
+	line-height: 1.6em;
+	color: #444;
+}
+
+.infoPage #content IMG.type1 {
+	margin: 0 12px 0 12px;
+}
+
+.infoPage #content UL {
+	font-weight: normal;
+	font-size: 1.4em;
+	color: #444;
+	list-style: decimal;
+	margin: 0px 12px 0px 1.8em;
+	padding: 0;
+}
+
+.infoPage #content UL LI {
+	margin: 0;
+	padding: 0;
+}
+
+#footer {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 1024px;
+	clear: both;
+}
+
+#footer #content {
+	display: block;
+	width: 912px;
+	min-height: 74px;
+	margin: 0 auto;
+	padding: 130px 54px 0 54px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #999;
+}
+
+#footer #content A {
+	color: #999;
+	text-decoration: none;
+}
+
+#footer #content A:HOVER {
+	text-decoration: underline;
+}
+
+#footer #content .copyright {
+	float: left;
+	display: block;
+	margin: 0px 30px 0 0;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .allRights {
+	float: left;
+	display: block;
+	margin: 0px 50px 0 0;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .links {
+	float: left;
+	display: block;
+	margin: 0px 28px 0 0;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .divider {
+	font-weight: normal;
+	margin: 0px 8px;
+}
+
+#footer #content .appStoreLink {
+	float: left;
+	display: block;
+	margin: 0px 31px 0 0;
+	padding: 4px 0 0 0;
+}
+
+#footer #content .california {
+	float: left;
+	display: block;
+	margin: 0px 4px 0 2px;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .bearLogo {
+	float: left;
+	display: block;
+}
+
+@media only screen and (max-device-width: 480px) {
+	HTML {
+		min-width: 320px;
+	}
+	
+	BODY {
+		font-size: 10px;
+	}
+
+	#header {
+		display: none;
+	}
+	
+	.infoPage {
+		position: relative;
+		width: 100%;
+		min-width: 320px;
+		padding: 0;
+	}
+	
+	.infoPage #content {
+		width: 320px;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.infoPage #content H1 {
+		font-size: 2.5em;
+	}
+	
+	.infoPage #content P.date {
+		margin-top: 1em;
+	}
+	
+	.infoPage #content UL {
+		margin-left: 2.2em;
+	}
+	
+	#footer {
+		display: none;
+	}
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="header">
+	<div id="content">
+		<a href="/"><img id="logo" src="../assets/images/global/logotype_weego_01.png" alt="weego" border="0" /></a>
+		<div id="weegoLinks">
+			<a class="current" href="/help.html">Help</a>
+			<a href="mailto:contact@unitedweego.com">Contact</a>
+			<a href="http://www.twitter.com/unitedweego" target="_blank">@UnitedWeego</a>
+		</div>
+	</div>
+</div>
+
+<div class="infoPage" id="page0">
+	<div id="content">
+		<h2>What is Weego?</h2>
+		<p>Weego is the simple &amp; private way to decide where to go with your friends.<br />
+		<br />
+		In short it's a group collaboration application that enables you and your friends to plan &amp; decide, as a private group, where to go.<br />
+		<br />
+		Private Group: Planning + Decision + Conversations + Check-ins</p>
+		<h2>Why Weego?</h2>
+		<p>We created Weego to alleviate the tedium of planning and deciding outings with our friends. Hopefully you will find this service useful in planning and deciding where you go with your friends!</p>
+		<h2>How do I get started?</h2>
+		<p>Using the iPhone application, create an event by selecting the "+" button. Add some of your friends and the places you would like to go to. And your friends can do the same. Everyone picks the place(s) they would like to "Go" to. Then Weego will let the group know the group's decision, including the event time and location.</p>
+		<h2>When can my friends see my current location?</h2>
+		<p>Right around the start time of the event Weego will let your group know where you are. And when you arrive at the location, Weego will automatically check you in and let everyone know that you have arrived.
+		<br />
+		<br />
+		*Only people that you and your friends have invited can access the events data.</p>
+		<h2>Can I disable sharing my current location?</h2>
+		<p>Yes. Within the "Settings" view of the application you can disable sharing your current location by toggling the "Display my location" to "OFF".</p>
+		<h2>Can I suggest a new date and time for the event?</h2>
+		<p>Yes. Within the "Event Details" view select the top right "..." button. An actionsheet will be presented with a series of buttons. Select the "Suggest a new time" button. This will bring up another actionsheet that gives you the ability to select the day and time that works best for you. This suggestion will be presented to everyone in your event's group and it will be up to the host to change the event's day and time.</p>
+		<h2>How do I let everyone know I can't make it?</h2>
+		<p>Within the "Event Details" view select the top right "..." button. An actionsheet will be presented with a series of buttons. Select the "Count Me Out..." button. If you decline the event you will not receive any updates from the group.</p>
+		<h2>I changed my mind, can I still accept the event?</h2>
+		<p>Yes. Within the "Event Details" view select the top right "..." button. An actionsheet will be presented with a series of buttons. Select the "Count Me In.." button. Once you accept the event you will begin to receive all of the updates from the group.</p>
+		<h2>Can I remove an event?</h2>
+		<p>Yes. You can remove events a couple ways. First, on your "Event Dashboard" you can swipe to the right on the event you would like to remove. This will reveal the "Delete" button. Second way is from within the "Event Details" view select the top right "..." button. An actionsheet will be presented with a series of buttons. Select the "Remove Event" button.
+		<br />
+		<br />
+		*This action cannot be reversed.</p>
+		<h2>Can I duplicate a past event?</h2>
+		<p>Yes. This action will create a new event with the same group and locations. On your "Event Dashboard" select "Past Events". This will expand the list of archived events. Select the event you wish to duplicate. Within the "Event Details" view select the top right "..." button. An actionsheet will be presented with a series of buttons. Select the "Duplicate Event" button.</p>
+		<h2>What Apple devices are supported?</h2>
+		<p>We support iPhone 3GS &amp; iPhone 4 running iOS 4.3 or later.</p>
+		<h2>I don't have an iPhone. Can I still use Weego?</h2>
+		<p>No. Unfortunately this first release only supports iPhone 3GS &amp; iPhone 4 running iOS 4.3 or later. In the very near future you will be able to access the service from any mobile or desktop browser.</p>
+		<h2>Will you support other smart phones?</h2>
+		<p>Yes. We're planning to release a version that will be accessible through any mobile browser. We're also planning to release an Android version in the coming months.</p>
+		<h2>Help, my push notifications are broken!</h2>
+		<p>First, check to make sure you have enabled push notifications in your phone's Settings for Weego. Second, try logging out and back in to the application. Note that Apple's push notifications are not 100% reliable. If you are in an area of bad or sporadic coverage, you may occasionally miss notifications. In these cases, you can manually check for new updates by using pull-to-refresh on your events dashboard.</p>
+	</div>
+</div>
+
+<div id="footer">
+	<div id="content">
+		<p class="copyright">&copy;2011 UnitedWego, LLC</p>
+		<p class="allRights">All Rights Reserved</p>
+		<p class="links"><a href="/terms.html">Terms of Service</a><span class="divider">|</span><a href="/privacy.html">Privacy</a></p>
+		<p class="appStoreLink"><a href="http://itunes.apple.com/us/app/weego/id456053283?ls=1&mt=8"><img src="../assets/images/global/apple_appstore_badge.png" border="0" /></a></p>
+		<p class="california">Made with Love in San Francisco, California</p>
+		<div class="bearLogo"><img src="../assets/images/global/sanfrancisco_bear_01.png" /></div>
+	</div>
+</div>
+
+</body>
+</html>

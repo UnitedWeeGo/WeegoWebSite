@@ -1,0 +1,190 @@
+@font-face {
+	font-family: WeegoFont;
+	src: url( '../assets/fonts/MyriadPro-Light.otf' ),
+	 	 url( '../assets/fonts/MyriadPro-Light.eot' ) format("opentype");
+}
+
+@font-face {
+	font-family: WeegoFont;
+	src: url( '../assets/fonts/MyriadPro-Regular.otf' ),
+		 url( '../assets/fonts/MyriadPro-Regular.eot' ) format("opentype");
+	font-weight: bold;
+}
+
+HTML {
+	background: url('../assets/images/background_01.png') no-repeat top center fixed;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	min-height: 600px;
+}
+
+BODY {
+	font-family: WeegoFont;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#main {
+	position: absolute;
+	display: block;
+	width: 730px;
+/*	top: 15.9%;*/
+	top: 10.0%;
+	left: 33%;
+	z-index: 2;
+}
+
+#logo {
+	position: relative;
+	display: block;
+	float: left;
+	width: 239px;
+	height: 331px;
+	margin: 0px 69px 0 54px;
+	background: url('../assets/images/logo_weego_01.png') no-repeat;
+}
+
+#logo H1 {
+	display: none;
+}
+
+#signUpForm {
+	position: relative;
+	display: block;
+	float: left;
+	width: 550px;
+}
+
+#signUpForm H2 {
+	font-size: 28px;
+	color: #666;
+	margin: 24px 31px 11px 31px;
+	padding: 0;
+}
+
+#signUpForm P {
+	font-size: 18px;
+	color: #777;
+	line-height: 21px;
+	margin: 0 30px 23px 31px;
+	padding: 0;
+}
+
+#signUpForm FORM {
+	margin: 69px 0 30px 20px;
+	padding: 0;
+	border: none;
+}
+
+#signUpForm FORM .inputField {
+	float: left;
+	width: 276px;
+	height: 35px;
+	margin: 0 10px 0 0;
+	font-size: 16px;
+	color: #999;
+	padding: 0 5px 0 5px;
+	outline: none;
+	border: 5px solid #feb515;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px;
+	background: transparent;
+	-moz-border-image:url('../assets/images/inputTextField_default.png') 6 6 5 5 stretch; /* Firefox */
+	-webkit-border-image:url('../assets/images/inputTextField_default.png') 6 6 5 5 stretch; /* Safari and Chrome */
+	border-image:url('../assets/images/inputTextField_default.png') 6 6 5 5 stretch;
+}
+
+#signUpForm FORM .activeField {
+	color: #666;
+	-moz-border-image:url('../assets/images/inputTextField_active.png') 6 6 5 5 stretch; /* Firefox */
+	-webkit-border-image:url('../assets/images/inputTextField_active.png') 6 6 5 5 stretch; /* Safari and Chrome */
+	border-image:url('../assets/images/inputTextField_active.png') 6 6 5 5 stretch;
+}
+
+#signUpForm FORM .short {
+	width: 181px;
+}
+
+#signUpForm FORM .submitButton {
+	float: left;
+	width: 144px;
+	height: 45px;
+	margin: 0 0 0 0;
+	font-size: 0px;
+	border: none;
+	outline: none;
+	background: url('../assets/images/button_submit_disabled.png') no-repeat;
+}
+
+#signUpForm FORM .activeButton {
+	background: url('../assets/images/button_submit_default.png') no-repeat;
+}
+
+.mce_inline_error {
+	
+}
+
+#signUpForm FORM LABEL {
+	display: none !important;
+}
+
+#footer {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	min-height: 600px;
+	z-index: 1;
+}
+
+#footer #content {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	width: 100%;
+	height: 96px;
+	min-width: 930px;
+	color: #999;
+	background-color: #F3F3F3;
+}
+
+#footer #content .copyright {
+	float: left;
+	display: block;
+	font-weight: bold;
+	margin: 12px 28px 0 55px;
+}
+
+#footer #content .twitter {
+	float: left;
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 12px 74px 0 0;
+}
+
+#footer #content .twitter A {
+	color: inherit;
+	text-decoration: none;
+}
+
+#footer #content .twitter A:hover {
+	text-decoration: underline;
+}
+
+#footer #content .message {
+	float: left;
+	display: block;
+	width: 375px;
+	margin: 12px 85px 0 0;
+}
+
+#footer #content .thanks {
+	float: left;
+	display: block;
+	font-weight: bold;
+}

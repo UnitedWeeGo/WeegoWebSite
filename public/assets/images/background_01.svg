@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="650px" viewBox="0 0 1024 650" style="enable-background:new 0 0 1024 650;" xml:space="preserve">
+<g id="Layer_3">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="396" y1="670" x2="396" y2="31.1" gradientTransform="matrix(1 0 0 -1 116 670)">
+		<stop  offset="0" style="stop-color:#006BB5"/>
+		<stop  offset="1" style="stop-color:#011C49"/>
+	</linearGradient>
+	<rect style="fill:url(#SVGID_1_);" width="1024" height="650"/>
+</g>
+<g id="Layer_4">
+	
+		<radialGradient id="SVGID_2_" cx="398.5" cy="287.3359" r="410.8125" gradientTransform="matrix(1 0 0 0.524 116 175.3734)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#28D1F3;stop-opacity:0.4471"/>
+		<stop  offset="1" style="stop-color:#28D1F3;stop-opacity:0"/>
+	</radialGradient>
+	<rect style="opacity:0.5;fill:url(#SVGID_2_);enable-background:new    ;" width="1024" height="650"/>
+</g>
+<g id="Layer_5">
+	
+		<radialGradient id="SVGID_3_" cx="400.1504" cy="302.1021" r="444.6373" gradientTransform="matrix(1 0 0 0.6533 116 121.1729)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#28D1F3;stop-opacity:0.4471"/>
+		<stop  offset="1" style="stop-color:#28D1F3;stop-opacity:0"/>
+	</radialGradient>
+	<rect style="opacity:0.5;fill:url(#SVGID_3_);enable-background:new    ;" width="1024" height="650"/>
+</g>
+<g id="FlashAICB">
+	
+		<radialGradient id="SVGID_4_" cx="400.1504" cy="310.5322" r="274.4" gradientTransform="matrix(1 0 0 1.02 116 4.1072)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#28D1F3;stop-opacity:0.4471"/>
+		<stop  offset="1" style="stop-color:#28D1F3;stop-opacity:0"/>
+	</radialGradient>
+	<rect style="opacity:0.3;fill:url(#SVGID_4_);enable-background:new    ;" width="1024" height="650"/>
+</g>
+</svg>

@@ -1,0 +1,261 @@
+@font-face {
+	font-family: WeegoFont;
+	src: url( '../assets/fonts/MyriadPro-Light.otf' ),
+	 	 url( '../assets/fonts/MyriadPro-Light.eot' ) format("opentype");
+}
+
+@font-face {
+	font-family: WeegoFont;
+	src: url( '../assets/fonts/MyriadPro-Regular.otf' ),
+		 url( '../assets/fonts/MyriadPro-Regular.eot' ) format("opentype");
+	font-weight: bold;
+}
+
+HTML {
+	min-width: 1024px;
+}
+
+BODY {
+	font-family: WeegoFont, MyriadPro-Regular, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+	background-color: #F3F3F3;
+}
+
+#header {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	background: url('../assets/images/global/weego_smallheader_01.png') no-repeat top center fixed;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+#header #content {
+	position: relative;
+	display: block;
+	width: 1024px;
+	height: 101px;
+	margin: 0 auto;
+}
+
+#header #logo {
+	position: relative;
+	float: left;
+	display: block;
+	padding: 35px 0 0 52px
+}
+
+#header #weegoLinks {
+	display: block;
+	float: left;
+	width: 400px;
+	margin: 37px 0 0 341px;
+	padding: 0 54px 0 0;
+	text-align: right;
+	font-size: 1.3em;
+	font-weight: bold;
+	letter-spacing: 0.06em;
+	text-shadow: 0px 1px #000;
+	color: #999;
+}
+
+#header #weegoLinks A {
+	color: #CCC;
+	text-decoration: none;
+	margin: 0 0 0 25px;
+}
+
+#header #weegoLinks A:HOVER, #header #weegoLinks A.current {
+	color: #FFF;
+}
+
+.infoPage {
+	position: relative;
+	width: 100%;
+	min-width: 1024px;
+}
+
+.infoPage #content {
+	position: relative;
+	display: block;
+	width: 832px;
+	margin: 0 auto;
+	padding: 2.4em 150px 0 42px;
+}
+
+.infoPage #content H1 {
+	font-size: 4em;
+	font-weight: bold;
+	margin: 0 12px 0.4em 12px;
+	color: #444;
+}
+
+.infoPage #content H2 {
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 1.2em 12px 6px 12px;
+	color: #444;
+}
+
+.infoPage #content P {
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 0px 12px 1.1em 12px;
+	color: #444;
+}
+
+.infoPage #content P.date {
+	font-size: 1.2em;
+	margin: 2.2em 12px 1em 12px;
+	color: #444;
+}
+
+.infoPage #content P.footer {
+	font-size: 1.4em;
+	font-weight: normal;
+	font-style:italic;
+	margin: 0px 12px 24px 12px;
+	line-height: 1.6em;
+	color: #444;
+}
+
+.infoPage #content IMG.type1 {
+	margin: 0 12px 0 12px;
+}
+
+.infoPage #content UL {
+	font-weight: normal;
+	font-size: 1.4em;
+	color: #444;
+	list-style: decimal;
+	margin: 0px 12px 0px 1.8em;
+	padding: 0;
+}
+
+.infoPage #content UL LI {
+	margin: 0;
+	padding: 0;
+}
+
+#footer {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 1024px;
+	clear: both;
+}
+
+#footer #content {
+	display: block;
+	width: 912px;
+	min-height: 74px;
+	margin: 0 auto;
+	padding: 130px 54px 0 54px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #999;
+}
+
+#footer #content A {
+	color: #999;
+	text-decoration: none;
+}
+
+#footer #content A:HOVER {
+	text-decoration: underline;
+}
+
+#footer #content .copyright {
+	float: left;
+	display: block;
+	margin: 0px 30px 0 0;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .allRights {
+	float: left;
+	display: block;
+	margin: 0px 50px 0 0;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .links {
+	float: left;
+	display: block;
+	margin: 0px 28px 0 0;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .divider {
+	font-weight: normal;
+	margin: 0px 8px;
+}
+
+#footer #content .appStoreLink {
+	float: left;
+	display: block;
+	margin: 0px 31px 0 0;
+	padding: 4px 0 0 0;
+}
+
+#footer #content .california {
+	float: left;
+	display: block;
+	margin: 0px 4px 0 2px;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .bearLogo {
+	float: left;
+	display: block;
+}
+
+@media only screen and (max-device-width: 480px) {
+	HTML {
+		min-width: 320px;
+	}
+	
+	BODY {
+		font-size: 10px;
+	}
+
+	#header {
+		display: none;
+	}
+	
+	.infoPage {
+		position: relative;
+		width: 100%;
+		min-width: 320px;
+		padding: 0;
+	}
+	
+	.infoPage #content {
+		width: 320px;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.infoPage #content H1 {
+		font-size: 2.5em;
+	}
+	
+	.infoPage #content P.date {
+		margin-top: 1em;
+	}
+	
+	.infoPage #content UL {
+		margin-left: 2.2em;
+	}
+	
+	#footer {
+		display: none;
+	}
+}

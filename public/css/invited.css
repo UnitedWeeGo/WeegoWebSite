@@ -1,0 +1,593 @@
+@font-face {
+	font-family: WeegoFont;
+	src: url( '../assets/fonts/MyriadPro-Light.otf' ),
+	 	 url( '../assets/fonts/MyriadPro-Light.eot' ) format("opentype");
+}
+
+@font-face {
+	font-family: WeegoFont;
+	src: url( '../assets/fonts/MyriadPro-Regular.otf' ),
+		 url( '../assets/fonts/MyriadPro-Regular.eot' ) format("opentype");
+	font-weight: bold;
+}
+
+HTML {
+	background: url('../assets/images/background_01.png') no-repeat top center fixed;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	min-height: 600px;
+	min-width: 1024px;
+}
+
+BODY {
+	font-family: WeegoFont;
+	font-size: 10px;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#main {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	max-width: 1024px;
+	z-index: 2;
+}
+
+#logo {
+	position: relative;
+	display: block;
+	float: left;
+	width: 239px;
+	height: 300px;
+	margin: 9px 69px 20px 41px;
+	background: url('../assets/images/logo_weego_noTag_01.png') no-repeat;
+}
+
+#logo H1 {
+	display: none;
+}
+
+#signUpForm, #thanks {
+	position: relative;
+	display: block;
+	float: left;
+	min-width: 300px;
+	max-width: 450px;
+	margin: 0 10px 0 10px;
+	border: 0px solid #f3f3f3;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px;
+	background: #f3f3f3;
+}
+
+#thanks {
+	display: none;
+}
+
+#main H2 {
+	font-size: 3.2em;
+	color: #666;
+	margin: 24px 31px 11px 31px;
+	padding: 0;
+}
+
+#main P {
+	font-size: 1.8em;
+	color: #777;
+	line-height: 1.2em;
+	margin: 0 30px 23px 31px;
+	padding: 0;
+}
+
+#main P.disclosure {
+	font-size: 1.2em;
+	color: #999;
+}
+
+.fb_button_xlarge {
+	font-size: 2.4em !important;
+/*	margin: 0 30px 12px 31px;*/
+}
+
+#signUpForm #fbSignup #fb-auth {
+	
+}
+
+#fbSignup {
+	margin: 0 15px 0 31px;
+}
+
+#user-info {
+	min-height: 25px;
+	font-size: 1.8em;
+	color: #777;
+	margin: 0 0 13px 0;
+}
+
+#user-info .spacer {
+	display: block;
+	width:20px;
+	height: 3px;
+}
+
+#user-info .fbIcon {
+	display:block;
+	float: left;
+	background: url("http://static.ak.fbcdn.net/rsrc.php/v1/yL/r/FGFbc80dUKj.png") no-repeat scroll 0 -138px transparent;
+	width: 25px;
+	height: 25px;
+	overflow: hidden;
+}
+
+#user-info .fbLoginName {
+	font-size: 1.8em;
+	color: #777;
+	margin: 5px 0 0 0;
+}
+
+#user-info .fbAvatar {
+	display:block;
+	float: left;
+	width: 23px;
+	height: 23px;
+	margin-right: 6px;
+	border: 1px solid #1A356E;
+	border-left: none;
+}
+
+#fbButtons {
+	display: block;
+	height: 45px;
+	margin: 0 0 10px 0;
+}
+
+.fb_button_xlarge .fb_button_text {
+    margin-left: 0px;
+    padding: 3px 8px 3px 12px;
+}
+
+.fb_button .fb_button_text, .fb_button_rtl .fb_button_text {
+    background: url("http://static.ak.fbcdn.net/rsrc.php/v1/yL/r/FGFbc80dUKj.png") repeat scroll 0 0 #5F78AB;
+    border-bottom: 1px solid #1A356E;
+    border-top: 1px solid #879AC0;
+    color: #FFFFFF;
+    display: block;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-weight: bold;
+    margin: 1px 1px 0 21px;
+    padding: 2px 6px 3px;
+    text-shadow: none;
+
+}
+
+.fb_yes_no {
+	display: block;
+	float: left;
+	width: 175px;
+	margin-right: 20px;
+	cursor: pointer;
+   	outline: none;
+	border: 5px solid #f3f3f3;
+	-webkit-border-radius: 5px; -moz-border-radius: 5px;
+	background: transparent;
+	-moz-border-image:url('../assets/images/button_default.png') 5 5 5 5 stretch repeat; /* Firefox */
+	-webkit-border-image:url('../assets/images/button_default.png') 5 5 5 5 stretch; /* Safari and Chrome */
+	border-image:url('../assets/images/button_default.png') 5 5 5 5 stretch;
+}
+
+.fb_yes_no:HOVER {
+	-moz-border-image:url('../assets/images/button_over.png') 5 5 5 5 stretch repeat; /* Firefox */
+	-webkit-border-image:url('../assets/images/button_over.png') 5 5 5 5 stretch; /* Safari and Chrome */
+	border-image:url('../assets/images/button_over.png') 5 5 5 5 stretch;
+}
+
+.fb_yes_no:ACTIVE {
+	-moz-border-image:url('../assets/images/button_pressed.png') 5 5 5 5 stretch repeat; /* Firefox */
+	-webkit-border-image:url('../assets/images/button_pressed.png') 5 5 5 5 stretch; /* Safari and Chrome */
+	border-image:url('../assets/images/button_pressed.png') 5 5 5 5 stretch;
+}
+
+.fb_yes_no .fb_button_text {
+    color: #666;
+    display: block;
+    font-weight: bold;
+    margin: 0px 1px 0 21px;
+    padding: 6px 6px 3px;
+    text-shadow: none;
+	font-size: 18px;
+	margin-left: 1px;
+	text-align: center;
+}
+
+.fb_yes_no:HOVER .fb_button_text, .fb_yes_no:ACTIVE .fb_button_text {
+	color: #FFF;
+}
+
+.downloadButton {
+	display: block;
+	width: 202px;
+	margin: 6px 0 40px 31px;
+	text-decoration: none;
+	cursor: pointer;
+   	outline: none;
+	border: 5px solid #9ABE44;
+	-webkit-border-radius: 5px; -moz-border-radius: 5px;
+	background: transparent;
+/*	background-color: #9ABE44;*/
+	-moz-border-image:url('../assets/images/global/button_download_default.png') 5 5 5 5 stretch repeat; /* Firefox */
+	-webkit-border-image:url('../assets/images/global/button_download_default.png') 5 5 5 5 stretch; /* Safari and Chrome */
+	border-image:url('../assets/images/global/button_download_default.png') 5 5 5 5 stretch;
+}
+
+.downloadButton:ACTIVE {
+	-moz-border-image:url('../assets/images/global/button_download_pressed.png') 5 5 5 5 stretch repeat; /* Firefox */
+	-webkit-border-image:url('../assets/images/global/button_download_pressed.png') 5 5 5 5 stretch; /* Safari and Chrome */
+	border-image:url('../assets/images/global/button_download_pressed.png') 5 5 5 5 stretch;
+}
+
+.downloadButton .buttonText {
+    color: #FFF;
+    display: block;
+    font-weight: bold;
+    font-size: 2em !important;
+    margin: 0px 18px 0 0px;
+    padding: 7px 18px 4px;
+    text-shadow: 0px 1px #000;
+	margin-left: 1px;
+	background: url('../assets/images/main/icon_iphonedownload_01.png') no-repeat top right;
+}
+
+.downloadButton:HOVER .buttonText, .downloadButton:ACTIVE .buttonText {
+	color: #FFF;
+}
+
+#working {
+	display: none;
+}
+
+#signUpForm FORM {
+	margin: 0 20px 12px 20px;
+	padding: 0;
+	border: none;
+}
+
+#signUpForm FORM .inputField {
+	width: 95%;
+	max-width: 390px;
+	height: 35px;
+	margin: 0 5px 12px 0;
+	font-size: 1.6em;
+	color: #999;
+	padding: 0 5px 0 5px;
+	outline: none;
+	border: 5px solid #feb515;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px;
+	background: transparent;
+	-moz-border-image:url('../assets/images/inputTextField_default.png') 6 6 5 5 stretch; /* Firefox */
+	-webkit-border-image:url('../assets/images/inputTextField_default.png') 6 6 5 5 stretch; /* Safari and Chrome */
+	border-image:url('../assets/images/inputTextField_default.png') 6 6 5 5 stretch;
+}
+
+#signUpForm FORM .activeField {
+	color: #666;
+	-moz-border-image:url('../assets/images/inputTextField_active.png') 6 6 5 5 stretch; /* Firefox */
+	-webkit-border-image:url('../assets/images/inputTextField_active.png') 6 6 5 5 stretch; /* Safari and Chrome */
+	border-image:url('../assets/images/inputTextField_active.png') 6 6 5 5 stretch;
+}
+
+#signUpForm FORM .short {
+	width: 181px;
+}
+
+.last {
+	margin-right: 0;
+}
+
+#signUpForm FORM .submitButton {
+	width: 144px;
+	height: 45px;
+	margin: 7px 0 0 265px;
+	font-size: 0px;
+	border: none;
+	outline: none;
+	background: url('../assets/images/button_submit_white_disabled.png') no-repeat;
+}
+
+#signUpForm FORM .activeButton {
+	background: url('../assets/images/button_submit_default.png') no-repeat;
+}
+
+.mce_inline_error {
+	
+}
+
+#signUpForm FORM LABEL {
+	display: none !important;
+}
+
+#footerLayer {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	min-height: 600px;
+	z-index: 1;
+}
+
+#footerLayer #footer {
+	position: absolute;
+	width: 100%;
+	min-width: 1024px;
+	min-height: 96px;
+	bottom: 0;
+	background-color: #F3F3F3;
+}
+
+#footer #content {
+	display: block;
+	margin: 21px auto 0 auto;
+	width: 912px;
+	min-height: 96px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #999;
+}
+
+#footer #content A {
+	color: #999;
+	text-decoration: none;
+}
+
+#footer #content A:HOVER {
+	text-decoration: underline;
+}
+
+#footer #content .copyright {
+	float: left;
+	display: block;
+	margin: 0px 30px 0 0;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .allRights {
+	float: left;
+	display: block;
+	margin: 0px 50px 0 0;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .links {
+	float: left;
+	display: block;
+	margin: 0px 28px 0 0;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .divider {
+	font-weight: normal;
+	margin: 0px 8px;
+}
+
+#footer #content .appStoreLink {
+	float: left;
+	display: block;
+	margin: 0px 31px 0 0;
+	padding: 4px 0 0 0;
+}
+
+#footer #content .california {
+	float: left;
+	display: block;
+	margin: 0px 4px 0 2px;
+	padding: 21px 0 0 0;
+}
+
+#footer #content .bearLogo {
+	float: left;
+	display: block;
+}
+
+/*@media only screen and (max-width: 900px) {*/
+@media handheld, only screen and (max-device-width: 1024px) and (orientation: portrait) {
+
+	HTML {
+		min-width: 768px;
+	}
+	
+	#main {
+		top: 0px;
+		position: relative;
+		margin: 0px 10px;
+		max-width: 786px;
+	}
+	
+	#signUpForm, #thanks {
+		float: none;
+		margin: 10px auto;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+	
+	#logo {
+		float: none;
+		width: 120px;
+		height: 150px;
+		margin: 10px auto;
+		-webkit-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	
+	#main H2 {
+		margin: 24px 31px 11px 31px;
+	}
+	
+	#main P {
+		margin: 0 30px 23px 31px;
+	}
+	
+	#user-info .spacer {
+		height: 4px;
+	}
+	
+	#signUpForm FORM .short {
+		width: 95%;
+	}
+	
+	#signUpForm FORM .submitButton {
+		margin-left: 0;
+	}
+	
+	#footerLayer {
+		top: 0px;
+		min-height: 720px;
+	}
+	
+	#footerLayer #footer {
+		min-width: 768px;
+	}
+	
+	#footer #content {
+		margin: 0 auto 0 auto;
+		width: 444px;
+		min-height: 136px;
+	}
+	
+	#footer #content .links {
+		margin-right: 0;
+	}
+	
+	#footer #content .appStoreLink {
+		clear: left;
+		margin-top: 2em;
+		margin-right: 19px;
+	}
+	
+	#footer #content .california {
+		margin-top: 2em;
+		margin-right: 16px;
+	}
+	
+	#footer #content .bearLogo {
+		margin-top: 2.5em;
+	}
+	
+}
+
+@media handheld, only screen and (max-device-width: 480px) and (orientation: portrait) {
+	HTML {
+		min-width: 320px;
+	}
+	
+	BODY {
+		font-size: 8px;
+	}
+	
+	#main {
+		top: 0px;
+		position: relative;
+		margin: 0px 10px;
+		max-width: 320px;
+	}
+	
+	#signUpForm, #thanks {
+		float: none;
+		margin: 10px auto;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+	
+	#logo {
+		float: none;
+		width: 120px;
+		height: 150px;
+		margin: 10px auto;
+		-webkit-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	
+	#main H2 {
+		margin: 24px 31px 11px 31px;
+	}
+	
+	#main P {
+		margin: 0 30px 23px 31px;
+	}
+	
+	#user-info .spacer {
+		height: 4px;
+	}
+	
+	#signUpForm FORM .short {
+		width: 95%;
+	}
+	
+	#signUpForm FORM .submitButton {
+		margin-left: 0;
+	}
+	
+	.fb_yes_no {
+		width: 102px;
+	}
+	
+	.fb_button_xlarge {
+		font-size: 1.8em !important;
+	}
+	
+	#footerLayer {
+		top: 0px;
+		min-height: 720px;
+	}
+	
+	#footerLayer #footer {
+		min-width: 320px;
+	}
+	
+	#footer #content {
+		margin: 0 auto 0 auto;
+		width: 235px;
+		min-height: 124px;
+	}
+	
+	#footer #content .allRights {
+		float: right;
+		margin-right: 0;
+		
+	}
+	
+	#footer #content .links {
+		margin-right: 0;
+	}
+	
+	#footer #content .appStoreLink {
+		float: right;
+		clear: none;
+		margin: 0.9em 0 0 0;
+	}
+	
+	#footer #content .appStoreLink IMG {
+		width: 88px;
+		height: 31px;
+	}
+	
+	#footer #content .california {
+		margin: 1em 0 0 0;
+		padding: 0.5em  0 0;
+	}
+	
+	#footer #content .bearLogo {
+		float: right;
+		margin-top: 1em;
+	}
+	
+	#footer #content .bearLogo IMG {
+		width: 25px;
+		height: 15px;
+	}
+}

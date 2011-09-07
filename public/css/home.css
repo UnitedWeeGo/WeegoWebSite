@@ -206,7 +206,7 @@ BODY {
 	float: right;
 	width: 400px;
 	margin: 2px 0 0 0;
-	padding: 0 54px 0 0;
+	padding: 0 60px 0 0;
 	text-align: right;
 	font-size: 1.6em;
 	font-weight: bold;
@@ -216,7 +216,7 @@ BODY {
 #mainLinks #weegoLinks A {
 	color: #999;
 	text-decoration: none;
-	margin: 0 0 0 25px;
+	margin: 0 0 0 22px;
 }
 
 #info {
@@ -281,6 +281,7 @@ BODY {
 }
 
 #footer #content A:HOVER {
+	color: #0061A9;
 	text-decoration: underline;
 }
 

@@ -288,21 +288,21 @@ BODY {
 #footer #content .copyright {
 	float: left;
 	display: block;
-	margin: 0px 34px 0 0;
+	margin: 0px 10px 0 0;
 	padding: 21px 0 0 0;
 }
 
 #footer #content .allRights {
 	float: left;
 	display: block;
-	margin: 0px 36px 0 0;
+	margin: 0px 74px 0 0;
 	padding: 21px 0 0 0;
 }
 
 #footer #content .links {
 	float: left;
 	display: block;
-	margin: 0px 34px 0 0;
+	margin: 0px 26px 0 0;
 	padding: 21px 0 0 0;
 }
 
@@ -314,14 +314,14 @@ BODY {
 #footer #content .appStoreLink {
 	float: left;
 	display: block;
-	margin: 0px 34px 0 0;
+	margin: 0px 15px 0 0;
 	padding: 4px 0 0 0;
 }
 
 #footer #content .california {
 	float: left;
 	display: block;
-	margin: 0px 4px 0 0;
+	margin: 0px 10px 0 0;
 	padding: 21px 0 0 0;
 }
 

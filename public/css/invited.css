@@ -22,7 +22,7 @@ HTML {
 }
 
 BODY {
-	font-family: WeegoFont;
+	font-family: WeegoFont, Helvetica, sans-serif;
 	font-size: 10px;
 	margin: 0;
 	width: 100%;
@@ -170,24 +170,24 @@ BODY {
 	margin-right: 20px;
 	cursor: pointer;
    	outline: none;
-	border: 5px solid #f3f3f3;
-	-webkit-border-radius: 5px; -moz-border-radius: 5px;
-	background: transparent;
-	-moz-border-image:url('../assets/images/button_default.png') 5 5 5 5 stretch repeat; /* Firefox */
-	-webkit-border-image:url('../assets/images/button_default.png') 5 5 5 5 stretch; /* Safari and Chrome */
-	border-image:url('../assets/images/button_default.png') 5 5 5 5 stretch;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: #f3f3f3;
+	background: -webkit-linear-gradient(top, #ffffff, #ededed);
+	background: -moz-linear-gradient(top, #ffffff, #ededed);
 }
 
 .fb_yes_no:HOVER {
-	-moz-border-image:url('../assets/images/button_over.png') 5 5 5 5 stretch repeat; /* Firefox */
-	-webkit-border-image:url('../assets/images/button_over.png') 5 5 5 5 stretch; /* Safari and Chrome */
-	border-image:url('../assets/images/button_over.png') 5 5 5 5 stretch;
+	background: #a8ce5a;
+	background: -webkit-linear-gradient(top, #a8ce5a, #648521);
+	background: -moz-linear-gradient(top, #a8ce5a, #648521);
 }
 
 .fb_yes_no:ACTIVE {
-	-moz-border-image:url('../assets/images/button_pressed.png') 5 5 5 5 stretch repeat; /* Firefox */
-	-webkit-border-image:url('../assets/images/button_pressed.png') 5 5 5 5 stretch; /* Safari and Chrome */
-	border-image:url('../assets/images/button_pressed.png') 5 5 5 5 stretch;
+	background: #648521;
+	background: -webkit-linear-gradient(bottom, #a8ce5a, #648521);
+	background: -moz-linear-gradient(bottom, #a8ce5a, #648521);
 }
 
 .fb_yes_no .fb_button_text {
@@ -213,19 +213,18 @@ BODY {
 	text-decoration: none;
 	cursor: pointer;
    	outline: none;
-	border: 5px solid #9ABE44;
-	-webkit-border-radius: 5px; -moz-border-radius: 5px;
-	background: transparent;
-/*	background-color: #9ABE44;*/
-	-moz-border-image:url('../assets/images/global/button_download_default.png') 5 5 5 5 stretch repeat; /* Firefox */
-	-webkit-border-image:url('../assets/images/global/button_download_default.png') 5 5 5 5 stretch; /* Safari and Chrome */
-	border-image:url('../assets/images/global/button_download_default.png') 5 5 5 5 stretch;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: #a8ce5a;
+	background: -webkit-linear-gradient(top, #a8ce5a, #648521);
+	background: -moz-linear-gradient(top, #a8ce5a, #648521);
 }
 
 .downloadButton:ACTIVE {
-	-moz-border-image:url('../assets/images/global/button_download_pressed.png') 5 5 5 5 stretch repeat; /* Firefox */
-	-webkit-border-image:url('../assets/images/global/button_download_pressed.png') 5 5 5 5 stretch; /* Safari and Chrome */
-	border-image:url('../assets/images/global/button_download_pressed.png') 5 5 5 5 stretch;
+	background: #648521;
+	background: -webkit-linear-gradient(bottom, #a8ce5a, #648521);
+	background: -moz-linear-gradient(bottom, #a8ce5a, #648521);
 }
 
 .downloadButton .buttonText {

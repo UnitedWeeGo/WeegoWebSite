@@ -75,7 +75,7 @@ BODY {
 	cursor: pointer;
    	outline: none;
 	border: 1px solid rgba(0,0,0,0.6);
-	-webkit-border-radius: 5px;
+	border-radius: 5px;
 	-moz-border-radius: 5px;
 	background: #a8ce5a;
 	background: -webkit-linear-gradient(top, #a8ce5a, #648521);
